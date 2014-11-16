@@ -1,0 +1,69 @@
+<html>
+
+<head>
+
+<script src='../dom/jquery.min.js'></script>
+<script src='../dom/highcharts.js'></script>
+<script src='../dom/jquery.remodal.js'></script>
+
+<link rel='stylesheet' href='../styles/jquery.remodal.css'>
+<link rel="stylesheet" href="../styles/default_style.css">
+    
+<script src='../scripts/default_js.js'></script>
+
+</head>
+ 
+<body>
+    
+    <div class="remodal" data-remodal-id="modal">
+        <h1>dataexplore</h1>
+        <p>
+        A small tool to enable you to have an insight about your dataset features..so that you can engineer them.
+        </p>
+        <p style='font-size: 12px;'>
+        Author: Saifuddin Abdullah (saif.778@gmail.com)
+        </p>
+        <br>
+        <!--a class="remodal-cancel" href="#">Cancel</a-->
+        <a class="remodal-confirm" href="#">OK</a>
+        
+    </div>
+    
+    <!--a href="#modal">Call the modal with data-remodal-id="modal"</a-->
+    
+    <div class='header_main'>
+        <div class='header_title'>dataexplore</div>
+        <a href="#modal"><div class='header_info'>About</div></a>
+    </div>
+    <div class='main_wrapper'>
+        
+        <div class='feature_stats'>
+            <div class='heading_type_a'>Features Summary</div>
+            <div class='key_facts'>
+                <div class='key_facts_header'>
+                    <div class='key_facts_title'>Feature #</div>
+                    <div class='key_facts_title'>Max</div>
+                    <div class='key_facts_title'>Min</div>
+                    <div class='key_facts_title'>Mean</div>
+                    <div class='key_facts_title'>StDev</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class='histograms'>
+            <div class='heading_type_a'>Histograms</div>
+            <div class='basic_explanation'>Demonstrates the frequency of values in each of your dataset's features.</div>
+        </div>
+        
+        <div class='scatterpoints'>
+            <div class='heading_type_a'>Feature Comparison</div>
+            <div class='basic_explanation'>Demonstrates the comparison of different features of your dataset with each other.</div>
+            <div class='basic_sub_explanation'>Hint for correlation coefficients: 1 = positive correlation, 0 = no correlation, -1 = negative correlation</div>
+        </div>
+        
+    </div>
+
+</body>
+
+
+</html>

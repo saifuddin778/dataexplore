@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_main{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(223, 101, 101);
+    /*position: fixed;*/
+    top: 0px;
+    display: block;
+}
+
+.header_title{
+    padding-left: 17px;
+    padding-top: 9px;
+    font-family: Trebuchet MS;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.header_info {
+    float: right;
+    line-height: 50px;
+    margin-right: 22px;
+    background-color: rgb(185, 185, 185);
+    height: 50px;
+    width: 67px;
+    text-align: center;
+    color: white;
+    font-family: trebuchet ms;
+    font-size: 13px;
+}
+
+.main_wrapper{
+    width: 95%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    background-color: rgb(250, 250, 250);
+    margin-top: 15px;
+    position: static;
+}
+
+.feature_stats{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.key_facts{
+    width:auto;
+    border-radius: 2px;
+}
+
+.key_facts_header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(218, 218, 218);
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+
+.key_facts_title{
+    display: inline-block;
+    text-align: center;
+    padding-top: 11px;
+    width: 19%;
+}
+
+.key_facts_row{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(241, 241, 241);
+    font-family: Trebuchet MS;
+    font-size: 14px;
+}
+
+.key_facts_values{
+    display: inline-block;
+    text-align: center;
+    padding-top: 11px;
+    width: 20%;
+}
+
+
+.histograms{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.histogram_block{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.scatterplots{
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.scatterplot_block{
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.heading_type_a {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 21px;
+    font-family: Trebuchet MS;
+    color: white;
+    line-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+
+.basic_explanation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+    font-family: trebuchet ms;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.basic_sub_explanation {
+    padding-top: 2px;
+    padding-bottom: 0px;
+    color: gray;
+    font-family: trebuchet ms;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+.hidden_class{
+    display: none;
+}
+
+.prominent{
+    color: green;
+}
+
+.remodal-close{
+    display: none;
+}
